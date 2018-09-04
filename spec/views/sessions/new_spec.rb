@@ -7,3 +7,5 @@ feature 'Add a login' do
     fill_in 'name', with: 'Tim'
     click_button 'login'
     expect(page).to have_content('Tim')
+  end
+end 
